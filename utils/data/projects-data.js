@@ -21,7 +21,7 @@ export const projectsData = [
     tools: ['Angular', 'Express.js', 'MongoDB', 'Node.js', 'Tailwind CSS', 'Nodemailer'],
     role: 'Full Stack Developer',
     code: '',
-    demo: 'https://www.linkedfishers.com/',
+    link: 'https://www.linkedfishers.com/',
     image: "linkedFishersApp",
 }
 
