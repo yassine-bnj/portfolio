@@ -1,9 +1,10 @@
 "use client"
 import { useEffect } from 'react';
+import dynamic from "next/dynamic";
 
 const GlowCard = ({ children , identifier}) => {
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+     if (typeof window === "undefined") return;
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
 
@@ -64,11 +65,11 @@ const GlowCard = ({ children , identifier}) => {
 
     // Cleanup event listener
     return () => {
-      if (typeof window !== 'undefined') {
+  
       document.body.removeEventListener('pointermove', UPDATE);
-      }
+      
     };
-}}, [identifier]);
+}, [identifier]);
 
   return (
     <div className={`glow-container-${identifier} glow-container`}>
