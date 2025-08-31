@@ -4,7 +4,7 @@ export const personalData = {
   designation: "Software Engineering Student",
   description: "My name is Yassine Ben Jeddou, an enthusiastic programmer passionate about problem-solving and continuous learning. I specialize in Java as my core technology and enjoy working across different stacks in web application development. I also have experience in mobile development, allowing me to build solutions across platforms. With curiosity and adaptability, I strive to create innovative and impactful software.",
   email: 'yassinebenjeddou5@gmail.com',
-  phone: '+36205518200',
+  phone: '+33605883488',
   address: 'Avignon, France',
   github: 'https://github.com/yassine-bnj',
   facebook: 'https://www.facebook.com/',
