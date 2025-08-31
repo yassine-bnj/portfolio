@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 
 // Dynamically import Lottie so it only runs on the client
 const Lottie = dynamic(() => import("lottie-react"), 
-// { ssr: false }
+{ ssr: false }
 );
 
 const AnimationLottie = ({ animationPath, width }) => {
